@@ -1,12 +1,13 @@
-import React from "react";
-import Header from "./Header";
 import Footer from "./Footer";
+import Header from "./Header";
 
-function Layout({ children }: { children: React.ReactNode }) {
+// {children} : {children : React.ReactNode}
+
+function Layout() {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <main></main>
       <Footer />
     </>
   );
