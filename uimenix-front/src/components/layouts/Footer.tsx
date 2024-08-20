@@ -117,7 +117,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* bottom footer */}
+      {/* copyright */}
       <div className="py-9 w-full border-t border-solid border-borderGray flex flex-wrap lg:flex-nowrap items-center text-[18px] text-textPrimary mx-auto sm:justify-between">
         <div className="mb-6 lg:mb-0 text-center lg:text-left w-full lg:w-auto">
           <p>
