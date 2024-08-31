@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 import Footer from "./Footer";
+>>>>>>> main
 import Header from "./Header";
 
 // {children} : {children : React.ReactNode}
