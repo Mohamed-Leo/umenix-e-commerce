@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
   padding: 0;
   margin: 0;
@@ -14,22 +13,19 @@ html {
 }
 
 body::-webkit-scrollbar {
-  width: 6px;               /* width of the entire scrollbar */
+  width: 6px; /* width of the entire scrollbar */
 }
 body::-webkit-scrollbar-track {
   background: #fff;
 }
 body::-webkit-scrollbar-thumb {
-  background-color: #2b38d1;    /* color of the scroll thumb */
+  background-color: #2b38d1; /* color of the scroll thumb */
   border-radius: 20px;
 }
-
 
 body {
   min-height: 100vh;
 }
-
-
 
 /* header styles-------------------------------------------------------------- */
 /* Style for toggle button bars */
@@ -69,14 +65,13 @@ body {
   transition-delay: calc(0s + 0.35s * 0.6);
 }
 
-
 /* to show the responsive nav */
 .responsive-nav-container.show-res-nav {
   transform: translatex(0);
 }
 
 /* nav media */
-@media(max-width : 870px) {
+@media (max-width: 870px) {
   header .top {
     justify-content: center;
   }
@@ -86,7 +81,7 @@ body {
   }
 }
 
-@media(max-width : 768px) {
+@media (max-width: 768px) {
   header {
     display: none;
   }
@@ -94,7 +89,7 @@ body {
   nav ul {
     display: none !important;
   }
-  
+
   nav ul {
     display: none !important;
   }
@@ -107,7 +102,3 @@ body {
     display: block;
   }
 }
-
-
-
-

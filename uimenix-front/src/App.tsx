@@ -5,8 +5,8 @@ import 'aos/dist/aos.css';
 
 import { useEffect } from "react";
 
-
 function App() {
+<<<<<<< HEAD
   useEffect(()=>{
     AOS.init(
      {
@@ -18,12 +18,14 @@ function App() {
     )
     AOS.refresh();
    },[]);
+=======
+>>>>>>> main
   return (
     <>
       <Layout />
       <Hero/>
     </>
-  )
+  );
 }
 
 export default App;
